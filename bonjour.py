@@ -1,3 +1,4 @@
 
 def saluer(nom):
-    raise NotImplementedError("À implémenter")
+    return f"Bonjour {nom}"
+
