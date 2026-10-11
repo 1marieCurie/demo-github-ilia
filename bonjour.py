@@ -1,4 +1,7 @@
 
 def saluer(nom):
-    return f"Bonjour {nom}"
+    if nom:
+        return f"Bonjour {nom} !"
+    return "Bonjour !"
+
 
